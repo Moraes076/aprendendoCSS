@@ -4,11 +4,31 @@ body {
   
   h1 {
     color: rgb(255, 255, 255);
-    text-align: center;
   }
   
-  p {
-    color: rgb(0, 255, 76);
+  .fonte-azul {
+    color: blue;
+  }
+
+  .fonte-verde {
+    color: greenyellow;
+  }
+  
+  #para {
     font-family: verdana;
     font-size: 20px;
+  }
+  
+  #para2 {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  #img {
+    width: 60px;
+    height: 80px;
   }
