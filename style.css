@@ -2,15 +2,18 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     margin-top: 10px;
     margin-right: 10px;
-    margin-bottom: px;
+    margin-bottom: 500px;
     margin-left: 10px;
-    border: 3px double blue;
+    border: 3px double rgb(255, 255, 255);
+    background-image: url("imagens/fundosite.jpg");
   }
   
   h1 {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(81, 0, 255)
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    border: 3px solid rgb(255, 255, 255);
+    background-image: url("")
   }
   
   /* Class */
@@ -19,11 +22,20 @@ body {
   }
  
   .fonte-azul {
-    color: blue;
+    color: rgb(252, 252, 252);
+    border-style: dotted dashed solid double;
+    border-width: 5px 20px;
+    border-radius: 5px;
+    margin: 50px;
   }
 
   .fonte-verde {
     color: greenyellow;
+    border-style: groove;
+    border-color:rgb(0, 0, 0);
+    border-width: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
   }
   
   /* Id */
