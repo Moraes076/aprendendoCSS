@@ -5,7 +5,11 @@ body {
     margin-bottom: 500px;
     margin-left: 10px;
     border: 3px double rgb(255, 255, 255);
-    background-image: url("imagens/fundosite.jpg");
+    background-image: url("https://marketplace.canva.com/EAFILo5uX0s/1/0/1600w/canva-fundo-para-zoom-efeito-luz-3d-azul-VsiCxtld7Ck.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: center;
+    background-attachment: fixed;
   }
   
   h1 {
@@ -13,7 +17,7 @@ body {
     background-color: rgb(0, 0, 0);
     opacity: 1;
     border: 3px solid rgb(255, 255, 255);
-    background-image: url("")
+    text-shadow: 2px 2px 1px rgb(140, 0, 255);
   }
   
   /* Class */
@@ -21,12 +25,31 @@ body {
     text-align: center;
   }
  
+  .fonte-branca {
+    color: rgb(252, 252, 252);
+    border-style: inset;
+    border-width: 5px 20px;
+    border-radius: 5px;
+    margin: 50px;
+    text-transform: capitalize;
+  }
+
+  .fonte-green {
+    color: rgb(89, 0, 255);
+    border-style: double;
+    border-width: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  
   .fonte-azul {
     color: rgb(252, 252, 252);
     border-style: dotted dashed solid double;
     border-width: 5px 20px;
     border-radius: 5px;
     margin: 50px;
+    text-transform: uppercase;
   }
 
   .fonte-verde {
@@ -36,17 +59,42 @@ body {
     border-width: 5px 20px;
     border-radius: 5px;
     margin-bottom: 50px;
+    text-transform: capitalize;
+  }
+
+  .link {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    border-style: solid;
+    border-color: red;
+  }
+
+  .link a {
+    text-decoration-line: none;
+    color:rgb(140, 0, 255)
+    text-shadow 2px 2px 5px rgb(252, 252, 252);
+  }
+
+  /* Id */
+  #stop {
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+  }
+
+  #stop2 {
+    font-family: Brush Script MT;
+    font-size: 30px;
   }
   
-  /* Id */
   #para {
-    font-family: verdana;
+    font-family: Courier New;
     font-size: 20px;
   }
   
   #para2 {
-    font-family: verdana;
-    font-size: 20px;
+    font-family: Brush Script MT;
+    font-size: 30px;
   }
 
   #img {
